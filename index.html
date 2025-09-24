@@ -1,0 +1,703 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Goodseed Oficial</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+    <script src="https://unpkg.com/feather-icons"></script>
+    <style>
+        .hero-gradient {
+            background: linear-gradient(135deg, #01369C 0%, #F50102 100%);
+        }
+        .feature-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+        }
+        .transition-smooth {
+            transition: all 0.3s ease;
+        }
+    </style>
+</head>
+<body class="font-sans antialiased text-gray-800">
+    <!-- Navigation -->
+    <nav class="bg-white shadow-sm fixed w-full z-10">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between h-16">
+                <div class="flex items-center">
+                    <div class="flex-shrink-0 flex items-center">
+                        <i data-feather="book-open" class="h-8 w-8 text-blue-600"></i>
+                        <span class="ml-2 text-xl font-bold text-gray-900">Good Seed Christian Bilingual School & Institute</span>
+                    </div>
+                </div>
+                <div class="hidden md:ml-6 md:flex md:items-center md:space-x-8">
+                    <a href="#inicio" class="text-blue-600 px-3 py-2 text-sm font-medium">Inicio</a>
+                    <a href="#about" class="text-gray-500 hover:text-blue-600 px-3 py-2 text-sm font-medium">Nosotros</a>
+                    <a href="#programs" class="text-gray-500 hover:text-blue-600 px-3 py-2 text-sm font-medium">Programas</a>
+                    <a href="#teachers" class="text-gray-500 hover:text-blue-600 px-3 py-2 text-sm font-medium">Fotos</a>
+                    <a href="#contact" class="text-gray-500 hover:text-blue-600 px-3 py-2 text-sm font-medium">Contacto</a>
+                </div>
+                <div class="-mr-2 flex items-center md:hidden">
+                    <button type="button" class="inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-blue-500" aria-controls="mobile-menu" aria-expanded="false">
+                        <i data-feather="menu"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Mobile menu -->
+        <div class="md:hidden hidden" id="mobile-menu">
+            <div class="pt-2 pb-3 space-y-1">
+                <a href="#inicio" class="bg-blue-50 border-blue-500 text-blue-600 block pl-3 pr-4 py-2 border-l-4 text-base font-medium">Inicio</a>
+                <a href="#about" class="border-transparent text-gray-500 hover:bg-gray-50 hover:border-gray-300 hover:text-gray-700 block pl-3 pr-4 py-2 border-l-4 text-base font-medium">Nosotros</a>
+                <a href="#programs" class="border-transparent text-gray-500 hover:bg-gray-50 hover:border-gray-300 hover:text-gray-700 block pl-3 pr-4 py-2 border-l-4 text-base font-medium">Programas</a>
+                <a href="#teachers" class="border-transparent text-gray-500 hover:bg-gray-50 hover:border-gray-300 hover:text-gray-700 block pl-3 pr-4 py-2 border-l-4 text-base font-medium">Fotos</a>
+                <a href="#contact" class="border-transparent text-gray-500 hover:bg-gray-50 hover:border-gray-300 hover:text-gray-700 block pl-3 pr-4 py-2 border-l-4 text-base font-medium">Contacto</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <div class="hero-gradient pt-24 pb-32">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="lg:grid lg:grid-cols-12 lg:gap-8">
+                <div class="sm:text-center md:max-w-2xl md:mx-auto lg:col-span-6 lg:text-left" data-aos="fade-right">
+                    <h1 class="text-4xl tracking-tight font-extrabold text-white sm:text-5xl md:text-6xl">
+                        <span class="block">We are a Christian Bilingual School</span>
+                        <span class="block text-blue-200"></span>
+                    </h1>
+                    <p class="mt-3 text-base text-blue-100 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">
+                        Formando líderes del mañana con valores cristianos.
+                    </p>
+                    <div class="mt-8 sm:max-w-lg sm:mx-auto sm:text-center lg:text-left lg:mx-0">
+                        <div class="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
+                            <div class="rounded-md shadow">
+                                <a href="#programs" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-blue-700 bg-white hover:bg-blue-50 md:py-4 md:text-lg md:px-10">
+                                    Nuestros Programas
+                                </a>
+                            </div>
+                            <div class="mt-3 sm:mt-0 sm:ml-3">
+                                <a href="#contact" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-blue-500 bg-opacity-60 hover:bg-opacity-70 md:py-4 md:text-lg md:px-10">
+                                    Contáctanos
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="mt-12 relative sm:max-w-lg sm:mx-auto lg:mt-0 lg:max-w-none lg:mx-0 lg:col-span-6 lg:flex lg:items-center" data-aos="fade-left">
+                    <div class="relative mx-auto w-full rounded-lg shadow-lg lg:max-w-md">
+                        <img class="w-full rounded-lg" src="logo 3.jpeg" alt="Estudiantes aprendiendo">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- About Section -->
+    <div id="about" class="py-16 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="lg:text-center" data-aos="fade-up">
+                <h2 class="text-base text-blue-600 font-semibold tracking-wide uppercase">Sobre Nosotros</h2>
+                <p class="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">
+                    Una escuela con visión de futuro
+                </p>
+                <p class="mt-4 max-w-2xl text-xl text-gray-500 lg:mx-auto">
+                    Fundada en 2005, nuestra escuela ha sido pionera en educación de calidad.
+                </p>
+            </div>
+
+            <div class="mt-20">
+                <div class="space-y-10 md:space-y-0 md:grid md:grid-cols-2 md:gap-x-8 md:gap-y-10">
+                    <div class="flex" data-aos="fade-up" data-aos-delay="100">
+                        <div class="flex-shrink-0">
+                            <div class="flex items-center justify-center h-12 w-12 rounded-md bg-blue-500 text-white">
+                                <i data-feather="award"></i>
+                            </div>
+                        </div>
+                        <div class="ml-4">
+                            <h3 class="text-lg leading-6 font-medium text-gray-900">Misión</h3>
+                            <p class="mt-2 text-base text-gray-500">
+                                En nuestro Good Seed, nos comprometemos a brindar una educación de excelencia que promueva el desarrollo 
+                                integral de nuestros estudiantes, potenciando sus habilidades lingüísticas, cognitivas y socioemocionales 
+                                en un entorno multicultural y bilingüe. A través de un enfoque pedagógico innovador, fomentamos la adquisición 
+                                de competencias comunicativas en dos idiomas, el pensamiento crítico, la creatividad y los valores éticos, 
+                                preparando a nuestros alumnos para ser ciudadanos globales comprometidos con el aprendizaje continuo y la diversidad cultural.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="flex" data-aos="fade-up" data-aos-delay="200">
+                        <div class="flex-shrink-0">
+                            <div class="flex items-center justify-center h-12 w-12 rounded-md bg-blue-500 text-white">
+                                <i data-feather="users"></i>
+                            </div>
+                        </div>
+                        <div class="ml-4">
+                            <h3 class="text-lg leading-6 font-medium text-gray-900">Visión</h3>
+                            <p class="mt-2 text-base text-gray-500">
+                                Nuestra visión es ser reconocidos como un referente de excelencia educativa en el ámbito bilingüe, 
+                                destacándonos por la calidad de nuestra enseñanza, el compromiso con la formación integral de nuestros 
+                                estudiantes y la promoción de la diversidad cultural. Buscamos ser un espacio de aprendizaje inclusivo, 
+                                innovador y en constante evolución, donde se fomente la curiosidad, la colaboración y el respeto mutuo. 
+                                Aspiramos a formar líderes del mañana, capaces de desenvolverse con éxito en un mundo globalizado y multicultural, aportando de manera positiva a la sociedad y al desarrollo sostenible.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="flex" data-aos="fade-up" data-aos-delay="300">
+                        <div class="flex-shrink-0">
+                            <div class="flex items-center justify-center h-12 w-12 rounded-md bg-blue-500 text-white">
+                                <i data-feather="cpu"></i>
+                            </div>
+                        </div>
+                        <div class="ml-4">
+                            <h3 class="text-lg leading-6 font-medium text-gray-900">Valores</h3>
+                            <p class="mt-2 text-base text-gray-500">
+                                Honestidad y Franqueza, responsabilidad, Respeto consideración.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="flex" data-aos="fade-up" data-aos-delay="400">
+                        <div class="flex-shrink-0">
+                            <div class="flex items-center justify-center h-12 w-12 rounded-md bg-blue-500 text-white">
+                                <i data-feather="heart"></i>
+                            </div>
+                        </div>
+                        <div class="ml-4">
+                            <h3 class="text-lg leading-6 font-medium text-gray-900">Tecnología Educativa</h3>
+                            <p class="mt-2 text-base text-gray-500">
+                                Integramos herramientas digitales para potenciar el aprendizaje.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Programs Section -->
+    <div id="programs" class="py-16 bg-gray-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="lg:text-center" data-aos="fade-up">
+                <h2 class="text-base text-blue-600 font-semibold tracking-wide uppercase">Programas Académicos</h2>
+                <p class="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">
+                    Nuestras Ofertas Educativas
+                </p>
+                <p class="mt-4 max-w-2xl text-xl text-gray-500 lg:mx-auto">
+                    Programas diseñados para inspirar y desafiar a cada estudiante.
+                </p>
+            </div>
+
+            <div class="mt-10">
+                <div class="space-y-10 md:space-y-0 md:grid md:grid-cols-3 md:gap-x-8 md:gap-y-10">
+                    <div class="feature-card bg-white p-6 rounded-lg shadow-md transition-smooth" data-aos="fade-up" data-aos-delay="100">
+                        <div class="flex items-center justify-center h-12 w-12 rounded-md bg-blue-500 text-white">
+                            <i data-feather="book"></i>
+                        </div>
+                        <h3 class="mt-4 text-lg leading-6 font-medium text-gray-900">Educación Primaria</h3>
+                        <p class="mt-2 text-base text-gray-500">
+                            Fundamentos sólidos en lectura, escritura, matemáticas y ciencias con enfoque en aprendizaje lúdico.
+                        </p>
+                        <div class="mt-4">
+                            <span class="inline-flex items-center px-3 py-0.5 rounded-full text-sm font-medium bg-blue-100 text-blue-800">
+                                6-11 años
+                            </span>
+                        </div>
+                    </div>
+
+                    <div class="feature-card bg-white p-6 rounded-lg shadow-md transition-smooth" data-aos="fade-up" data-aos-delay="200">
+                        <div class="flex items-center justify-center h-12 w-12 rounded-md bg-blue-500 text-white">
+                            <i data-feather="layers"></i>
+                        </div>
+                        <h3 class="mt-4 text-lg leading-6 font-medium text-gray-900">Educación Secundaria</h3>
+                        <p class="mt-2 text-base text-gray-500">
+                            Programa académico riguroso con oportunidades de exploración en diversas disciplinas.
+                        </p>
+                        <div class="mt-4">
+                            <span class="inline-flex items-center px-3 py-0.5 rounded-full text-sm font-medium bg-blue-100 text-blue-800">
+                                12-15 años
+                            </span>
+                        </div>
+                    </div>
+
+                    <div class="feature-card bg-white p-6 rounded-lg shadow-md transition-smooth" data-aos="fade-up" data-aos-delay="300">
+                        <div class="flex items-center justify-center h-12 w-12 rounded-md bg-blue-500 text-white">
+                            <i data-feather="bar-chart-2"></i>
+                        </div>
+                        <h3 class="mt-4 text-lg leading-6 font-medium text-gray-900">Bachillerato</h3>
+                        <p class="mt-2 text-base text-gray-500">
+                            Especialización en ciencias, humanidades o artes con preparación universitaria.
+                        </p>
+                        <div class="mt-4">
+                            <span class="inline-flex items-center px-3 py-0.5 rounded-full text-sm font-medium bg-blue-100 text-blue-800">
+                                16-18 años
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="mt-16 bg-white rounded-lg shadow-md overflow-hidden" data-aos="fade-up">
+                <div class="p-6 sm:p-10">
+                    <div class="md:flex md:items-center md:justify-between">
+                        <div class="flex-1 min-w-0">
+                            <h2 class="text-2xl font-bold leading-7 text-gray-900 sm:text-3xl sm:truncate">
+                                Programas Extracurriculares
+                            </h2>
+                            <p class="mt-1 max-w-2xl text-sm text-gray-500">
+                                Enriquecimiento más allá del aula tradicional
+                            </p>
+                        </div>
+                    </div>
+                    <div class="mt-6 border-t border-gray-200">
+                        <dl class="divide-y divide-gray-200">
+                            <div class="py-4 sm:py-5 sm:grid sm:grid-cols-3 sm:gap-4">
+                                <dt class="text-sm font-medium text-gray-500">
+                                    Programación
+                                </dt>
+                                <dd class="mt-1 flex text-sm text-gray-900 sm:mt-0 sm:col-span-2">
+                                    <span class="flex-grow">Diseño web, entre otros</span>
+                                    <span class="ml-4 flex-shrink-0">
+                                        <span class="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-green-100 text-green-800">
+                                            Disponible
+                                        </span>
+                                    </span>
+                                </dd>
+                            </div>
+                            <div class="py-4 sm:py-5 sm:grid sm:grid-cols-3 sm:gap-4">
+                                <dt class="text-sm font-medium text-gray-500">
+                                    Arte y Música
+                                </dt>
+                                <dd class="mt-1 flex text-sm text-gray-900 sm:mt-0 sm:col-span-2">
+                                    <span class="flex-grow">Arte, música con presentaciones</span>
+                                    <span class="ml-4 flex-shrink-0">
+                                        <span class="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-green-100 text-green-800">
+                                            Disponible
+                                        </span>
+                                    </span>
+                                </dd>
+                            </div>
+                            <div class="py-4 sm:py-5 sm:grid sm:grid-cols-3 sm:gap-4">
+                                <dt class="text-sm font-medium text-gray-500">
+                                    Deportes Fútbol
+                                </dt>
+                                <dd class="mt-1 flex text-sm text-gray-900 sm:mt-0 sm:col-span-2">
+                                    <span class="flex-grow">Fútbol, baloncesto y voleibol</span>
+                                    <span class="ml-4 flex-shrink-0">
+                                        <span class="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-green-100 text-green-800">
+                                            Disponible
+                                        </span>
+                                    </span>
+                                </dd>
+                            </div>
+                        </dl>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Teachers Section -->
+    <div id="teachers" class="py-16 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="lg:text-center" data-aos="fade-up">
+                <h2 class="text-base text-blue-600 font-semibold tracking-wide uppercase"></h2>
+                <p class="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">
+                    Fotos
+                </p>
+                <p class="mt-4 max-w-2xl text-xl text-gray-500 lg:mx-auto">
+                    Lo mejor para nuestros estudiantes.
+                </p>
+            </div>
+
+            <div class="mt-10">
+                <div class="space-y-10 md:space-y-0 md:grid md:grid-cols-3 md:gap-x-8 md:gap-y-10">
+                    <div class="flex flex-col rounded-lg shadow-md overflow-hidden" data-aos="fade-up" data-aos-delay="100">
+                        <div class="flex-shrink-0">
+                            <img class="h-48 w-full object-cover" src="fut2.jpeg" alt="Equipo de fútbol">
+                        </div>
+                        <div class="flex-1 bg-white p-6 flex flex-col justify-between">
+                            <div class="flex-1">
+                                <p class="text-sm font-medium text-blue-600">
+                                    Fútbol
+                                </p>
+                                <h3 class="mt-2 text-xl font-semibold text-gray-900">
+                                    
+                                </h3>
+                                <p class="mt-3 text-base text-gray-500">
+                                    Nuestro equipo de primaria.
+                                </p>
+                            </div>
+                            <div class="mt-6 flex items-center">
+                                <div class="flex-shrink-0">
+                                    <i data-feather="award" class="h-5 w-5 text-yellow-500"></i>
+                                </div>
+                                <div class="ml-3">
+                                    <p class="text-sm font-medium text-gray-900">
+                                       
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="flex flex-col rounded-lg shadow-md overflow-hidden" data-aos="fade-up" data-aos-delay="200">
+                        <div class="flex-shrink-0">
+                            <img class="h-48 w-full object-cover" src="science.jpeg" alt="Feria de la Ciencia">
+                        </div>
+                        <div class="flex-1 bg-white p-6 flex flex-col justify-between">
+                            <div class="flex-1">
+                                <p class="text-sm font-medium text-blue-600">
+                                    Ciencias
+                                </p>
+                                <h3 class="mt-2 text-xl font-semibold text-gray-900">
+                                    
+                                </h3>
+                                <p class="mt-3 text-base text-gray-500">
+                                    Experimentos prácticos de nuestros alumnos hacen que la ciencia sea fascinante.
+                                </p>
+                            </div>
+                            <div class="mt-6 flex items-center">
+                                <div class="flex-shrink-0">
+                                    <i data-feather="globe" class="h-5 w-5 text-green-500"></i>
+                                </div>
+                                <div class="ml-3">
+                                    <p class="text-sm font-medium text-gray-900">
+                                        
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="flex flex-col rounded-lg shadow-md overflow-hidden" data-aos="fade-up" data-aos-delay="300">
+                        <div class="flex-shrink-0">
+                            <img class="h-48 w-full object-cover" src="art.jpeg" alt="Educación Artística">
+                        </div>
+                        <div class="flex-1 bg-white p-6 flex flex-col justify-between">
+                            <div class="flex-1">
+                                <p class="text-sm font-medium text-blue-600">
+                                    Arte
+                                </p>
+                                <h3 class="mt-2 text-xl font-semibold text-gray-900">
+                                    
+                                </h3>
+                                <p class="mt-3 text-base text-gray-500">
+                                    fomentar el amor por la arte en las nuevas generaciones.
+                                </p>
+                            </div>
+                            <div class="mt-6 flex items-center">
+                                <div class="flex-shrink-0">
+                                    <i data-feather="book" class="h-5 w-5 text-purple-500"></i>
+                                </div>
+                                <div class="ml-3">
+                                    <p class="text-sm font-medium text-gray-900">
+                                        
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Testimonials -->
+    <div class="bg-blue-50 py-16">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="lg:text-center" data-aos="fade-up">
+                <h2 class="text-base text-blue-600 font-semibold tracking-wide uppercase">Testimonios</h2>
+                <p class="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">
+                    Lo que dicen nuestras familias
+                </p>
+            </div>
+
+            <div class="mt-10">
+                <div class="space-y-10 md:space-y-0 md:grid md:grid-cols-2 md:gap-x-8 md:gap-y-10">
+                    <div class="bg-white p-6 rounded-lg shadow-md" data-aos="fade-up" data-aos-delay="100">
+                        <div class="flex items-center">
+                            <div class="flex-shrink-0">
+                                <img class="h-12 w-12 rounded-full" src="http://static.photos/people/200x200/1" alt="Padre de familia">
+                            </div>
+                            <div class="ml-4">
+                                <h3 class="text-lg font-medium text-gray-900">Juan Pérez</h3>
+                                <p class="text-gray-500">Padre de alumno de 5to grado</p>
+                            </div>
+                        </div>
+                        <div class="mt-4">
+                            <p class="text-gray-600 italic">
+                                "La transformación en mi hijo desde que llegó a esta escuela ha sido increíble. Ahora ama aprender y viene a casa emocionado por compartir lo que aprendió."
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="bg-white p-6 rounded-lg shadow-md" data-aos="fade-up" data-aos-delay="200">
+                        <div class="flex items-center">
+                            <div class="flex-shrink-0">
+                                <img class="h-12 w-12 rounded-full" src="http://static.photos/people/200x200/2" alt="Madre de familia">
+                            </div>
+                            <div class="ml-4">
+                                <h3 class="text-lg font-medium text-gray-900">María González</h3>
+                                <p class="text-gray-500">Madre de alumna de bachillerato</p>
+                            </div>
+                        </div>
+                        <div class="mt-4">
+                            <p class="text-gray-600 italic">
+                                "Los profesores realmente se preocupan por el desarrollo integral de los estudiantes. Mi hija ha florecido académica y personalmente gracias a su apoyo."
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Contact Section -->
+    <div id="contact" class="py-16 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="lg:text-center" data-aos="fade-up">
+                <h2 class="text-base text-blue-600 font-semibold tracking-wide uppercase">Contacto</h2>
+                <p class="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">
+                    Visítanos o escríbenos
+                </p>
+                <p class="mt-4 max-w-2xl text-xl text-gray-500 lg:mx-auto">
+                    Estamos aquí para responder todas tus preguntas sobre nuestra escuela.
+                </p>
+            </div>
+
+            <div class="mt-10">
+                <div class="grid grid-cols-1 gap-10 md:grid-cols-2">
+                    <div class="rounded-lg bg-gray-50 overflow-hidden shadow divide-y divide-gray-200" data-aos="fade-right">
+                        <div class="p-6">
+                            <h3 class="text-lg font-medium text-gray-900">Información de contacto</h3>
+                            <dl class="mt-4 space-y-4">
+                                <div class="flex">
+                                    <dt class="flex-shrink-0">
+                                        <i data-feather="map-pin" class="h-6 w-6 text-blue-500"></i>
+                                    </dt>
+                                    <dd class="ml-3 text-sm text-gray-500">
+                                        <p>San Pedro Sula, Honduras Dirección</p>
+                                        <p class="mt-1">Boulevard Mackey, 21102</p>
+                                    </dd>
+                                </div>
+                                <div class="flex">
+                                    <dt class="flex-shrink-0">
+                                        <i data-feather="phone" class="h-6 w-6 text-blue-500"></i>
+                                    </dt>
+                                    <dd class="ml-3 text-sm text-gray-500">
+                                        <p>+504 89888233</p>
+                                        <p class="mt-1">Puedes contactarnos a nuestro número.</p>
+                                    </dd>
+                                </div>
+                                <div class="flex">
+                                    <dt class="flex-shrink-0">
+                                        <i data-feather="mail" class="h-6 w-6 text-blue-500"></i>
+                                    </dt>
+                                    <dd class="ml-3 text-sm text-gray-500">
+                                        <p>admissions@goodseedhn.com</p>
+                                        <p class="mt-1">Respondemos en 24 horas</p>
+                                    </dd>
+                                </div>
+                            </dl>
+                        </div>
+                        <div class="px-6 py-4 bg-gray-100">
+                            <h3 class="text-sm font-medium text-gray-900">Horario de atención</h3>
+                            <ul class="mt-2 space-y-2">
+                                <li class="flex items-center justify-between text-sm">
+                                    <span class="text-gray-600">Lunes - Viernes</span>
+                                    <span class="font-medium text-gray-900">7:00 a.m. - 4:00 p.m.</span>
+                                </li>
+                                <li class="flex items-center justify-between text-sm">
+                                    <span class="text-gray-600">Sábados</span>
+                                    <span class="font-medium text-gray-900">9:00 a.m. - 12:00 p.m.</span>
+                                </li>
+                                <li class="flex items-center justify-between text-sm">
+                                    <span class="text-gray-600">Domingos</span>
+                                    <span class="font-medium text-gray-900">Cerrado</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="rounded-lg bg-gray-50 overflow-hidden shadow" data-aos="fade-left">
+                        <div class="p-6">
+                            <h3 class="text-lg font-medium text-gray-900">Formulario de contacto</h3>
+                            <form class="mt-6 space-y-6">
+                                <div>
+                                    <label for="name" class="block text-sm font-medium text-gray-700">Nombre completo</label>
+                                    <div class="mt-1">
+                                        <input type="text" name="name" id="name" autocomplete="name" class="py-3 px-4 block w-full shadow-sm focus:ring-blue-500 focus:border-blue-500 border-gray-300 rounded-md">
+                                    </div>
+                                </div>
+                                <div>
+                                    <label for="email" class="block text-sm font-medium text-gray-700">Correo electrónico</label>
+                                    <div class="mt-1">
+                                        <input type="email" name="email" id="email" autocomplete="email" class="py-3 px-4 block w-full shadow-sm focus:ring-blue-500 focus:border-blue-500 border-gray-300 rounded-md">
+                                    </div>
+                                </div>
+                                <div>
+                                    <label for="phone" class="block text-sm font-medium text-gray-700">Teléfono</label>
+                                    <div class="mt-1">
+                                        <input type="text" name="phone" id="phone" autocomplete="tel" class="py-3 px-4 block w-full shadow-sm focus:ring-blue-500 focus:border-blue-500 border-gray-300 rounded-md">
+                                    </div>
+                                </div>
+                                <div>
+                                    <label for="message" class="block text-sm font-medium text-gray-700">Mensaje</label>
+                                    <div class="mt-1">
+                                        <textarea id="message" name="message" rows="4" class="py-3 px-4 block w-full shadow-sm focus:ring-blue-500 focus:border-blue-500 border-gray-300 rounded-md"></textarea>
+                                    </div>
+                                </div>
+                                <div>
+                                    <button type="submit" class="w-full flex justify-center py-3 px-4 border border-transparent rounded-md shadow-sm text-sm font-medium text-white bg-blue-600 hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500">
+                                        Enviar mensaje
+                                    </button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800">
+        <div class="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-2 gap-8 md:grid-cols-4">
+                <div>
+                    <h3 class="text-sm font-semibold text-gray-300 tracking-wider uppercase">Escuela</h3>
+                    <ul class="mt-4 space-y-4">
+                        <li>
+                            <a href="#about" class="text-base text-gray-400 hover:text-white">
+                                Nosotros
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#programs" class="text-base text-gray-400 hover:text-white">
+                                Programas
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#teachers" class="text-base text-gray-400 hover:text-white">
+                                Fotos
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#contact" class="text-base text-gray-400 hover:text-white">
+                                Contacto
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-sm font-semibold text-gray-300 tracking-wider uppercase">Admisiones</h3>
+                    <ul class="mt-4 space-y-4">
+                        <li>
+                            <a href="#" class="text-base text-gray-400 hover:text-white">
+                                Proceso
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="text-base text-gray-400 hover:text-white">
+                                Requisitos
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="text-base text-gray-400 hover:text-white">
+                                Becas
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="text-base text-gray-400 hover:text-white">
+                                Preguntas frecuentes
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-sm font-semibold text-gray-300 tracking-wider uppercase">Legal</h3>
+                    <ul class="mt-4 space-y-4">
+                        <li>
+                            <a href="#" class="text-base text-gray-400 hover:text-white">
+                                Privacidad
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="text-base text-gray-400 hover:text-white">
+                                Términos
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="text-base text-gray-400 hover:text-white">
+                                Aviso legal
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-sm font-semibold text-gray-300 tracking-wider uppercase">Conéctate</h3>
+                    <ul class="mt-4 space-y-4">
+                        <li>
+                            <a href="https://www.facebook.com/Goodseedschool?locale=es_LA" class="text-base text-gray-400 hover:text-white flex items-center">
+                                <i data-feather="facebook" class="h-5 w-5 mr-2"></i>
+                                Facebook
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.instagram.com/goodseed_oficial/" class="text-base text-gray-400 hover:text-white flex items-center">
+                                <i data-feather="instagram" class="h-5 w-5 mr-2"></i>
+                                Instagram
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="mt-12 border-t border-gray-700 pt-8">
+                <p class="text-base text-gray-400 text-center">
+                    &copy; 2025 Good Seed Christian Bilingual School & Institute, todos los derechos reservados.
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Mobile menu toggle
+        document.addEventListener('DOMContentLoaded', function() {
+            const mobileMenuButton = document.querySelector('button[aria-controls="mobile-menu"]');
+            const mobileMenu = document.getElementById('mobile-menu');
+            
+            mobileMenuButton.addEventListener('click', function() {
+                const expanded = this.getAttribute('aria-expanded') === 'true' || false;
+                this.setAttribute('aria-expanded', !expanded);
+                mobileMenu.classList.toggle('hidden');
+                
+                // Change icon
+                const icon = this.querySelector('i');
+                if (expanded) {
+                    feather.replace();
+                    icon.setAttribute('data-feather', 'menu');
+                } else {
+                    feather.replace();
+                    icon.setAttribute('data-feather', 'x');
+                }
+                feather.replace();
+            });
+            
+            // Initialize AOS
+            AOS.init({
+                duration: 800,
+                easing: 'ease-in-out',
+                once: true
+            });
+            
+            // Replace all icons
+            feather.replace();
+        });
+    </script>
+</body>
+</html>
